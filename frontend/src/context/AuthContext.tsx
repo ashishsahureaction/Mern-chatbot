@@ -43,10 +43,10 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
 
-  const signup = async (name: string, email: string, password: string) => {};
+  const signup = async () => {};
 
 
-  const logout = async () => {  };
+  const logout = async () => {};
 
   const value = {
     user,
